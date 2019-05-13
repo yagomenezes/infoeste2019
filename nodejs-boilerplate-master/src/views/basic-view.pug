@@ -1,0 +1,9 @@
+include ./head
+include ./body
+
+<!DOCTYPE html>
+html(lang="en")
+  block head
+    +head('O que quiser')
+  block body
+    +body('Hello Word!', 'Olá!')

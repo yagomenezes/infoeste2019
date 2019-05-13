@@ -1,0 +1,26 @@
+{
+  "name": "infoeste2019_atividades",
+  "version": "1.0.0",
+  "description": "curso de aframe.io",
+  "main": "index.js",
+  "start": "nodemon index.js",
+  "dev": "nodemon index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yagomenezes/infoeste2019_atividades.git"
+  },
+  "author": "Yago Menezes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yagomenezes/infoeste2019_atividades/issues"
+  },
+  "homepage": "https://github.com/yagomenezes/infoeste2019_atividades#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "http": "0.0.0",
+    "nodemon": "^1.19.0"
+  }
+}
