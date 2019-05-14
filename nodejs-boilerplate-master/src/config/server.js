@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({ extended: true }))
 app.use(expressValidator())
 
 app.set('views', path.join(__dirname, '../views'))
-app.set('view engine', 'pug')
+app.set('view engine', 'ejs') //pug
 
 app.use(express.static(path.join(__dirname, '../static/')))
 app.use('/', routes)
